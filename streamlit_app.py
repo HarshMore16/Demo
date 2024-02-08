@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 
 
-data =pd.read_csv('Data/iris.csv')
+data =pd.read_csv('iris.csv')
 st.title("IRIS flower Dashboard")
 with st.sidebar:
     st.subheader("Description")
